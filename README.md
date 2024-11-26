@@ -6,6 +6,13 @@ The assignment includes an implementation of clustering algorithms applied to so
 
 ---
 
+## Contributors
+
+- [Konstantinos Giatras](https://github.com/GiatrasKon)
+- [Vasia Koumarela](https://github.com/VasiaKoum) 
+
+---
+
 ## Overview
 
 The main goal of this project is to apply clustering techniques to categorize countries into distinct groups based on their socio-economic and health indicators. The workflow includes data preprocessing, feature selection, normalization, and the application of clustering algorithms such as K-Means and K-Medians. Additionally, the project evaluates the quality of clustering using metrics like the Silhouette Score and Calinski-Harabasz Index, and provides visualization of the results.

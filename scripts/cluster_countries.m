@@ -165,7 +165,7 @@ seed_number = 200;
 % Eval criterions (for evalclusters)
 eval_criterions = {'CalinskiHarabasz', 'DaviesBouldin', 'silhouette'};
 
-% ------------------------- k-means -------------------------
+% ------------------------- k-means execution -------------------------
 
 % EXPERIMENT A: execute clustering algorithms
 [ theta_k_means_a, clusters_k_means_a, J_k_means_a, results_k_means_a] = execute_k_means(country, X_exp_A', clusters_num, seed_number);
@@ -185,7 +185,7 @@ if DISPLAY_FIGURES
 end
 preview_eval_clusters(X_exp_B, clusters_k_means_b, eval_criterions)
 
-% ------------------------- k-medians -------------------------
+% ------------------------- k-medians execution -------------------------
 
 % EXPERIMENT A: execute clustering algorithms
 [ theta_k_medians_a, clusters_k_medians_a, J_k_medians_a, results_k_medians_a] = execute_k_medians(country, X_exp_A', clusters_num, seed_number);
